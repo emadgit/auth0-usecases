@@ -16,6 +16,7 @@ const darkTheme = createTheme({ palette: { mode: "dark" } });
 const lightTheme = createTheme({ palette: { mode: "light" } });
 
 export const Profile = (props) => {
+  console.log("props: ", props)
   return (
     <Grid container spacing={1}>
       {[darkTheme].map((theme, index) => (
